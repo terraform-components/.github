@@ -4,7 +4,8 @@ This is my (and maybe also others eventually) try to create some lego pieces inf
 - do not try to be all-encompassing
 - solve opinionated small problems
 - still easily reusable
-- small enough to modify, copy, clone and integrate or use as bootstrap
+- are not just wrapping infra differently and make it even harder to understand
+- small enough to modify, copy, clone, migrate to, away and integrate or use as bootstrap
 
 Furthermore there will be some opinionated bootstrap repositories using them in different ways.
 
