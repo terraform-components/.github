@@ -6,6 +6,8 @@ This is my (and maybe also others eventually) try to create some lego pieces inf
 - still easily reusable
 - are not just wrapping infra differently and make it even harder to understand
 - small enough to modify, copy, clone, migrate to, away and integrate or use as bootstrap
+- modules do not use other modules
+- specifically modules no not generally depend on other modules so you can easily swap them out, integrate them and use them in your terraform
 
 Furthermore there will be some opinionated bootstrap repositories using them in different ways.
 
