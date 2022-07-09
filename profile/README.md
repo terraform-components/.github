@@ -1,5 +1,19 @@
 ## Terraform Components and Bootstrap
 
+This is my (and maybe also others eventually) try to create some lego pieces infrastructure components, that:
+- do not try to be all-encompassing
+- solve opinionated small problems
+- still easily reusable
+- small enough to modify, copy, clone and integrate or use as bootstrap
+
+Furthermore there will be some opinionated bootstrap repositories using them in different ways.
+
+As usual, there isn't the one right way, but many that can work out. The important thing is that you try to structure it all - that already makes all the difference. No structure is ever perfect, but merely a tradeoff.
+
+It is still all in its very early stages and while I have written tons of closed source code, I am rather new to this OSS thing, so please be patient on me finding the ropes.
+
+If you wish to help, please let's chat! :) Or just open PR/Issues if you prefer 😀
+
 <!--
 
 **Here are some ideas to get you started:**
