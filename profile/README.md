@@ -17,6 +17,8 @@ It is still all in its very early stages and while I have written tons of closed
 
 If you wish to help, please let's chat! :) Or just open PR/Issues if you prefer 😀
 
+Registry: https://registry.terraform.io/namespaces/terraform-components
+
 <!--
 
 **Here are some ideas to get you started:**
