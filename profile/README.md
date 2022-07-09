@@ -9,7 +9,7 @@ This is my (and maybe also others eventually) try to create some lego pieces inf
 - modules do not use other modules
 - specifically modules no not generally depend on other modules so you can easily swap them out, integrate them and use them in your terraform
 
-**this is important**: If the module does not simplify, combine or greatly improve upon using the terraform resource, we should not have a module as the only thing you'll gain is indirection, more errors, harder to upgrade and effectively less flexibility. modules can be pieces that are annoying otherwise or standardize something. If you think I have violated this rule here anywhere, let's discuss and it will be remediated. No one gains by abstracting a resource by just keeping all the complexity of it. That is so much work for nothing gained and I see this a lot. This is not your precious phone you have to wrap in casing and screen protection because otherwise the terraform resource gets scratched. 
+**this is important**: Modules should simplify, combine or greatly improve upon using the terraform resource. Modules can be pieces that are annoying otherwise or standardize something. At times the data structure you gain and can merge and override can be reason enough to create a module, but this should be carefully considered. If you think I have violated this rule here anywhere, let's discuss and it will be remediated. No one gains by abstracting a resource and just keeping all the complexity of it. We should not create more work, but make sure we have less complexity to deal with where possible.
 
 Furthermore there will be some opinionated bootstrap repositories using them in different ways.
 
